@@ -1,0 +1,521 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>itinerum</h:title>
+    <model>
+      <instance>
+        <data id="Itinerum survey 261" orxversion="2014083101">
+          <meta>
+            <instanceID/>
+          </meta>
+          <group_hardcoded_intro>
+            <location_home/>
+            <member_type/>
+          </group_hardcoded_intro>
+          <group_hardcoded_work>
+            <location_work/>
+            <travel_mode_work/>
+            <travel_mode_alt_work/>
+          </group_hardcoded_work>
+          <group_hardcoded_study>
+            <location_study/>
+            <travel_mode_study/>
+            <travel_mode_alt_study/>
+          </group_hardcoded_study>
+          <group_hardcoded_user>
+            <gender/>
+            <age/>
+            <email/>
+          </group_hardcoded_user>
+          <group_dynamic>
+            <name/>
+          </group_dynamic>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/group_hardcoded_intro:label">
+            <value>group_hardcoded_intro</value>
+          </text>
+          <text id="/data/group_hardcoded_intro/location_home:label">
+            <value>Please enter your home location on the map</value>
+          </text>
+          <text id="/data/group_hardcoded_intro/member_type:label">
+            <value>What is your primary occupation?</value>
+          </text>
+          <text id="/data/group_hardcoded_intro/member_type:option0">
+            <value>0</value>
+          </text>
+          <text id="/data/group_hardcoded_intro/member_type:option1">
+            <value>1</value>
+          </text>
+          <text id="/data/group_hardcoded_intro/member_type:option2">
+            <value>2</value>
+          </text>
+          <text id="/data/group_hardcoded_intro/member_type:option3">
+            <value>3</value>
+          </text>
+          <text id="/data/group_hardcoded_intro/member_type:option4">
+            <value>4</value>
+          </text>
+          <text id="/data/group_hardcoded_intro/member_type:option5">
+            <value>5</value>
+          </text>
+          <text id="/data/group_hardcoded_intro/member_type:option6">
+            <value>6</value>
+          </text>
+          <text id="/data/group_hardcoded_work:label">
+            <value>group_hardcoded_work</value>
+          </text>
+          <text id="/data/group_hardcoded_work/location_work:label">
+            <value>Please enter your work location on the map</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_work:label">
+            <value>How do you typically commute to your work location?</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_work:option0">
+            <value>0</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_work:option1">
+            <value>1</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_work:option2">
+            <value>2</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_work:option3">
+            <value>3</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_work:option4">
+            <value>4</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_work:option5">
+            <value>5</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_work:option6">
+            <value>6</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_alt_work:label">
+            <value>Do you use any alternative mode of travel to work?</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_alt_work:option0">
+            <value>0</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_alt_work:option1">
+            <value>1</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_alt_work:option2">
+            <value>2</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_alt_work:option3">
+            <value>3</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_alt_work:option4">
+            <value>4</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_alt_work:option5">
+            <value>5</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_alt_work:option6">
+            <value>6</value>
+          </text>
+          <text id="/data/group_hardcoded_work/travel_mode_alt_work:option7">
+            <value>7</value>
+          </text>
+          <text id="/data/group_hardcoded_study:label">
+            <value>group_hardcoded_study</value>
+          </text>
+          <text id="/data/group_hardcoded_study/location_study:label">
+            <value>Please enter your study location on the map</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_study:label">
+            <value>How do you typically commute to your studies?</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_study:option0">
+            <value>0</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_study:option1">
+            <value>1</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_study:option2">
+            <value>2</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_study:option3">
+            <value>3</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_study:option4">
+            <value>4</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_study:option5">
+            <value>5</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_study:option6">
+            <value>6</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_alt_study:label">
+            <value>Do you use any alternative mode of travel to your studies?</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_alt_study:option0">
+            <value>0</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_alt_study:option1">
+            <value>1</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_alt_study:option2">
+            <value>2</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_alt_study:option3">
+            <value>3</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_alt_study:option4">
+            <value>4</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_alt_study:option5">
+            <value>5</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_alt_study:option6">
+            <value>6</value>
+          </text>
+          <text id="/data/group_hardcoded_study/travel_mode_alt_study:option7">
+            <value>7</value>
+          </text>
+          <text id="/data/group_hardcoded_user:label">
+            <value>group_hardcoded_user</value>
+          </text>
+          <text id="/data/group_hardcoded_user/gender:label">
+            <value>What is your gender?</value>
+          </text>
+          <text id="/data/group_hardcoded_user/gender:option0">
+            <value>0</value>
+          </text>
+          <text id="/data/group_hardcoded_user/gender:option1">
+            <value>1</value>
+          </text>
+          <text id="/data/group_hardcoded_user/gender:option2">
+            <value>2</value>
+          </text>
+          <text id="/data/group_hardcoded_user/gender:option3">
+            <value>3</value>
+          </text>
+          <text id="/data/group_hardcoded_user/age:label">
+            <value>What is your age bracket?</value>
+          </text>
+          <text id="/data/group_hardcoded_user/age:option0">
+            <value>0</value>
+          </text>
+          <text id="/data/group_hardcoded_user/age:option1">
+            <value>1</value>
+          </text>
+          <text id="/data/group_hardcoded_user/age:option2">
+            <value>2</value>
+          </text>
+          <text id="/data/group_hardcoded_user/age:option3">
+            <value>3</value>
+          </text>
+          <text id="/data/group_hardcoded_user/age:option4">
+            <value>4</value>
+          </text>
+          <text id="/data/group_hardcoded_user/age:option5">
+            <value>5</value>
+          </text>
+          <text id="/data/group_hardcoded_user/age:option6">
+            <value>6</value>
+          </text>
+          <text id="/data/group_hardcoded_user/age:option7">
+            <value>7</value>
+          </text>
+          <text id="/data/group_hardcoded_user/email:label">
+            <value>Please enter your email</value>
+          </text>
+          <text id="/data/group_dynamic:label">
+            <value>group_dynamic</value>
+          </text>
+          <text id="/data/group_dynamic/name:label">
+            <value>Is your name Ali or Kyle?</value>
+          </text>
+          <text id="/data/group_dynamic/name:option0">
+            <value>Ali</value>
+          </text>
+          <text id="/data/group_dynamic/name:option1">
+            <value>Hamzeh</value>
+          </text>
+          <text id="/data/group_dynamic/name:option2">
+            <value>Kyle</value>
+          </text>
+        </translation>
+      </itext>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/data/meta/instanceID" readonly="true()" type="string"/>
+      <bind nodeset="/data/group_hardcoded_intro/location_home" required="true()" type="geopoint"/>
+      <bind nodeset="/data/group_hardcoded_intro/member_type" required="true()" type="select1"/>
+      <bind nodeset="/data/group_hardcoded_work/location_work" required="true()" type="geopoint"/>
+      <bind nodeset="/data/group_hardcoded_work/travel_mode_work" required="true()" type="select1"/>
+      <bind nodeset="/data/group_hardcoded_work/travel_mode_alt_work" required="true()" type="select1"/>
+      <bind nodeset="/data/group_hardcoded_study/location_study" required="true()" type="geopoint"/>
+      <bind nodeset="/data/group_hardcoded_study/travel_mode_study" required="true()" type="select1"/>
+      <bind nodeset="/data/group_hardcoded_study/travel_mode_alt_study" required="true()" type="select1"/>
+      <bind nodeset="/data/group_hardcoded_user/gender" required="true()" type="select1"/>
+      <bind nodeset="/data/group_hardcoded_user/age" required="true()" type="select1"/>
+      <bind nodeset="/data/group_hardcoded_user/email" required="true()" type="string"/>
+      <bind nodeset="/data/group_dynamic/name" required="true()" type="select1"/>
+    </model>
+  </h:head>
+  <h:body class="pages">
+    <group ref="group_hardcoded_intro">
+      <label ref="jr:itext('/data/group_hardcoded_intro:label')"/>
+      <input appearance="maps" ref="/data/group_hardcoded_intro/location_home">
+        <label ref="jr:itext('/data/group_hardcoded_intro/location_home:label')"/>
+      </input>
+      <select1 ref="/data/group_hardcoded_intro/member_type">
+        <label ref="jr:itext('/data/group_hardcoded_intro/member_type:label')"/>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_intro/member_type:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_intro/member_type:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_intro/member_type:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_intro/member_type:option3')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_intro/member_type:option4')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_intro/member_type:option5')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_intro/member_type:option6')"/>
+          <value>6</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="group_hardcoded_work">
+      <label ref="jr:itext('/data/group_hardcoded_work:label')"/>
+      <input appearance="maps" ref="/data/group_hardcoded_work/location_work">
+        <label ref="jr:itext('/data/group_hardcoded_work/location_work:label')"/>
+      </input>
+      <select1 ref="/data/group_hardcoded_work/travel_mode_work">
+        <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_work:label')"/>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_work:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_work:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_work:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_work:option3')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_work:option4')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_work:option5')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_work:option6')"/>
+          <value>6</value>
+        </item>
+      </select1>
+      <select1 ref="/data/group_hardcoded_work/travel_mode_alt_work">
+        <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_alt_work:label')"/>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_alt_work:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_alt_work:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_alt_work:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_alt_work:option3')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_alt_work:option4')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_alt_work:option5')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_alt_work:option6')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_work/travel_mode_alt_work:option7')"/>
+          <value>7</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="group_hardcoded_study">
+      <label ref="jr:itext('/data/group_hardcoded_study:label')"/>
+      <input appearance="maps" ref="/data/group_hardcoded_study/location_study">
+        <label ref="jr:itext('/data/group_hardcoded_study/location_study:label')"/>
+      </input>
+      <select1 ref="/data/group_hardcoded_study/travel_mode_study">
+        <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_study:label')"/>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_study:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_study:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_study:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_study:option3')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_study:option4')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_study:option5')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_study:option6')"/>
+          <value>6</value>
+        </item>
+      </select1>
+      <select1 ref="/data/group_hardcoded_study/travel_mode_alt_study">
+        <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_alt_study:label')"/>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_alt_study:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_alt_study:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_alt_study:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_alt_study:option3')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_alt_study:option4')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_alt_study:option5')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_alt_study:option6')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_study/travel_mode_alt_study:option7')"/>
+          <value>7</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="group_hardcoded_user">
+      <label ref="jr:itext('/data/group_hardcoded_user:label')"/>
+      <select1 ref="/data/group_hardcoded_user/gender">
+        <label ref="jr:itext('/data/group_hardcoded_user/gender:label')"/>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_user/gender:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_user/gender:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_user/gender:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_user/gender:option3')"/>
+          <value>3</value>
+        </item>
+      </select1>
+      <select1 ref="/data/group_hardcoded_user/age">
+        <label ref="jr:itext('/data/group_hardcoded_user/age:label')"/>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_user/age:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_user/age:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_user/age:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_user/age:option3')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_user/age:option4')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_user/age:option5')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_user/age:option6')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_hardcoded_user/age:option7')"/>
+          <value>7</value>
+        </item>
+      </select1>
+      <input ref="/data/group_hardcoded_user/email">
+        <label ref="jr:itext('/data/group_hardcoded_user/email:label')"/>
+      </input>
+    </group>
+    <group ref="group_dynamic">
+      <label ref="jr:itext('/data/group_dynamic:label')"/>
+      <select1 ref="/data/group_dynamic/name">
+        <label ref="jr:itext('/data/group_dynamic/name:label')"/>
+        <item>
+          <label ref="jr:itext('/data/group_dynamic/name:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_dynamic/name:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/group_dynamic/name:option2')"/>
+          <value>2</value>
+        </item>
+      </select1>
+    </group>
+  </h:body>
+</h:html>

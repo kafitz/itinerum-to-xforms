@@ -1,0 +1,733 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>Itinerum-Emission</h:title>
+    <model>
+      <instance>
+        <data id="build_Itinerum-Emission_1585689325">
+          <meta>
+            <instanceID/>
+          </meta>
+          <hardcoded_intro>
+            <location_home/>
+            <member_type/>
+          </hardcoded_intro>
+          <hardcoded_commute_work>
+            <location_work/>
+            <travel_mode_work/>
+            <travel_mode_alt_work/>
+          </hardcoded_commute_work>
+          <hardcoded_commute_study>
+            <location_school/>
+            <travel_mode_study/>
+            <travel_mode_alt_study/>
+          </hardcoded_commute_study>
+          <hardcoded_demographics>
+            <gender/>
+            <age/>
+            <email/>
+          </hardcoded_demographics>
+          <dynamic>
+            <name/>
+          </dynamic>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/hardcoded_intro:label">
+            <value>Intro</value>
+          </text>
+          <text id="/data/hardcoded_intro/location_home:label">
+            <value>Please enter your home location on the map</value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:label">
+            <value>What is your primary occupation?</value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:option0">
+            <value>A full-time worker</value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:option1">
+            <value>A part-time worker</value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:option2">
+            <value>A student</value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:option3">
+            <value>A student and a worker</value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:option4">
+            <value>Retired</value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:option5">
+            <value>At home</value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:option6">
+            <value>Other</value>
+          </text>
+          <text id="/data/hardcoded_commute_work:label">
+            <value>Travel To Work</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/location_work:label">
+            <value>Please enter your work location on the map</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:label">
+            <value>How do you typically commute to work?</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:option0">
+            <value>Walk</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:option1">
+            <value>Bicycle</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:option2">
+            <value>Public Transit</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:option3">
+            <value>Car</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:option4">
+            <value>Car &amp; Public Transit</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:option5">
+            <value>Other Mode</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:option6">
+            <value>Other Combinations</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:label">
+            <value>Do you use any alternative mode of travel to work?</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option0">
+            <value>N/A</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option1">
+            <value>Walk</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option2">
+            <value>Bicycle</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option3">
+            <value>Public Transit</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option4">
+            <value>Car</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option5">
+            <value>Car &amp; Public Transit</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option6">
+            <value>Other Mode</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option7">
+            <value>Other Combinations</value>
+          </text>
+          <text id="/data/hardcoded_commute_study:label">
+            <value>Travel to Study</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/location_school:label">
+            <value>Please enter your study location on the map</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:label">
+            <value>How do you typically commute to your studies?</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:option0">
+            <value>Walk</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:option1">
+            <value>Bicycle</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:option2">
+            <value>Public Transit</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:option3">
+            <value>Car</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:option4">
+            <value>Car &amp; Public Transit</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:option5">
+            <value>Other Mode</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:option6">
+            <value>Other Combinations</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:label">
+            <value>How do you use any alternative mode of travel to your studies?</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option0">
+            <value>N/A</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option1">
+            <value>Walk</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option2">
+            <value>Bicycle</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option3">
+            <value>Public Transit</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option4">
+            <value>Car</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option5">
+            <value>Car &amp; Public Transit</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option6">
+            <value>Other Mode</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option7">
+            <value>Other Combinations</value>
+          </text>
+          <text id="/data/hardcoded_demographics:label">
+            <value>User</value>
+          </text>
+          <text id="/data/hardcoded_demographics/gender:label">
+            <value>What is your gender?</value>
+          </text>
+          <text id="/data/hardcoded_demographics/gender:option0">
+            <value>Male</value>
+          </text>
+          <text id="/data/hardcoded_demographics/gender:option1">
+            <value>Female</value>
+          </text>
+          <text id="/data/hardcoded_demographics/gender:option2">
+            <value>Other/Neither</value>
+          </text>
+          <text id="/data/hardcoded_demographics/gender:option3">
+            <value>Does not wish to respond</value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:label">
+            <value>What is your age bracket?</value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option0">
+            <value>16-24</value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option1">
+            <value>25-34</value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option2">
+            <value>35-44</value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option3">
+            <value>45-54</value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option4">
+            <value>55-64</value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option5">
+            <value>65-74</value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option6">
+            <value>75-84</value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option7">
+            <value>85+</value>
+          </text>
+          <text id="/data/hardcoded_demographics/email:label">
+            <value>Please enter your email</value>
+          </text>
+          <text id="/data/dynamic:label">
+            <value>Dynamic Questions</value>
+          </text>
+          <text id="/data/dynamic/name:label">
+            <value>Is your name Ali or Kyle?</value>
+          </text>
+          <text id="/data/dynamic/name:option0">
+            <value>Ali</value>
+          </text>
+          <text id="/data/dynamic/name:option1">
+            <value>Kyle</value>
+          </text>
+        </translation>
+        <translation lang="French">
+          <text id="/data/hardcoded_intro:label">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_intro/location_home:label">
+            <value>Veuillez indiquer votre lieu de domicile</value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:label">
+            <value>Vous êtes...</value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:option0">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:option1">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:option2">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:option3">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:option4">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:option5">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_intro/member_type:option6">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work:label">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/location_work:label">
+            <value>Veuillez indiquer votre lieu de travail</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:label">
+            <value>Quel mode ou combinaison de modes de transport utilisez-vous habituellement pour vous rendre au travail?</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:option0">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:option1">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:option2">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:option3">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:option4">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:option5">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_work:option6">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:label">
+            <value>Utilisez-vous parfois un autre mode ou combinaison de modes de transport pour vous rendre au travail?</value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option0">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option1">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option2">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option3">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option4">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option5">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option6">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_work/travel_mode_alt_work:option7">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study:label">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/location_school:label">
+            <value>Veuillez indiquer votre lieu d’étude</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:label">
+            <value>Quel mode ou combinaison de modes de transport utilisez-vous habituellement pour vous rendre à votre lieu d’étude?</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:option0">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:option1">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:option2">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:option3">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:option4">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:option5">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_study:option6">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:label">
+            <value>Utilisez-vous parfois un autre mode ou combinaison de modes de transport pour vous rendre à votre lieu d’étude?</value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option0">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option1">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option2">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option3">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option4">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option5">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option6">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_commute_study/travel_mode_alt_study:option7">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_demographics:label">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_demographics/gender:label">
+            <value>Genre</value>
+          </text>
+          <text id="/data/hardcoded_demographics/gender:option0">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_demographics/gender:option1">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_demographics/gender:option2">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_demographics/gender:option3">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:label">
+            <value>Tranche d’âge</value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option0">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option1">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option2">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option3">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option4">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option5">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option6">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_demographics/age:option7">
+            <value></value>
+          </text>
+          <text id="/data/hardcoded_demographics/email:label">
+            <value>Entrez votre adresse e-mail</value>
+          </text> 
+          <text id="/data/dynamic:label">
+            <value></value>
+          </text>
+          <text id="/data/dynamic/name:label">
+            <value>Is your name Ali or Kyle?</value>
+          </text>
+          <text id="/data/dynamic/name:option0">
+            <value>Ali</value>
+          </text>
+          <text id="/data/dynamic/name:option1">
+            <value>Kyle</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/hardcoded_intro/location_home" type="geopoint" required="true()" jr:requiredMsg="jr:itext('/data/hardcoded_intro/location_home:requiredMsg')" jr:constraintMsg="jr:itext('/data/hardcoded_intro/location_home:constraintMsg')"/>
+      <bind nodeset="/data/hardcoded_intro/member_type" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/hardcoded_intro/member_type:requiredMsg')" jr:constraintMsg="jr:itext('/data/hardcoded_intro/member_type:constraintMsg')"/>
+      <bind nodeset="/data/hardcoded_commute_work" relevant="(member_type = 0 || 1 || 3)"/>
+      <bind nodeset="/data/hardcoded_commute_work/location_work" type="geopoint" required="true()" jr:requiredMsg="jr:itext('/data/hardcoded_commute_work/location_work:requiredMsg')" relevant="(member_type = 0 || 1 || 3)" jr:constraintMsg="jr:itext('/data/hardcoded_commute_work/location_work:constraintMsg')"/>
+      <bind nodeset="/data/hardcoded_commute_work/travel_mode_work" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/hardcoded_commute_work/travel_mode_work:requiredMsg')" relevant="(member_type = 0 || 1 || 3)" jr:constraintMsg="jr:itext('/data/hardcoded_commute_work/travel_mode_work:constraintMsg')"/>
+      <bind nodeset="/data/hardcoded_commute_work/travel_mode_alt_work" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/hardcoded_commute_work/travel_mode_alt_work:requiredMsg')" relevant="(member_type = 0 || 1 || 3)" jr:constraintMsg="jr:itext('/data/hardcoded_commute_work/travel_mode_alt_work:constraintMsg')"/>
+      <bind nodeset="/data/hardcoded_commute_study" relevant="(member_type = 2 || 3)"/>
+      <bind nodeset="/data/hardcoded_commute_study/location_school" type="geopoint" required="true()" jr:requiredMsg="jr:itext('/data/hardcoded_commute_study/location_school:requiredMsg')" relevant="(member_type = 2 || 3)" jr:constraintMsg="jr:itext('/data/hardcoded_commute_study/location_school:constraintMsg')"/>
+      <bind nodeset="/data/hardcoded_commute_study/travel_mode_study" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/hardcoded_commute_study/travel_mode_study:requiredMsg')" relevant="(member_type = 2 || 3)" jr:constraintMsg="jr:itext('/data/hardcoded_commute_study/travel_mode_study:constraintMsg')"/>
+      <bind nodeset="/data/hardcoded_commute_study/travel_mode_alt_study" type="select1" relevant="(member_type = 2 || 3)" jr:constraintMsg="jr:itext('/data/hardcoded_commute_study/travel_mode_alt_study:constraintMsg')"/>
+      <bind nodeset="/data/hardcoded_demographics/gender" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/hardcoded_demographics/gender:requiredMsg')" jr:constraintMsg="jr:itext('/data/hardcoded_demographics/gender:constraintMsg')"/>
+      <bind nodeset="/data/hardcoded_demographics/age" type="select1" required="true()" jr:requiredMsg="jr:itext('/data/hardcoded_demographics/age:requiredMsg')" jr:constraintMsg="jr:itext('/data/hardcoded_demographics/age:constraintMsg')"/>
+      <bind nodeset="/data/hardcoded_demographics/email" type="string" required="true()" jr:requiredMsg="jr:itext('/data/hardcoded_demographics/email:requiredMsg')" jr:constraintMsg="jr:itext('/data/hardcoded_demographics/email:constraintMsg')"/>
+      <bind nodeset="/data/dynamic/name" type="select1" required="true()"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/data/hardcoded_intro">
+      <label ref="jr:itext('/data/hardcoded_intro:label')"/>
+      <input ref="/data/hardcoded_intro/location_home" appearance="maps">
+        <label ref="jr:itext('/data/hardcoded_intro/location_home:label')"/>
+        <hint ref="jr:itext('/data/hardcoded_intro/location_home:hint')"/>
+      </input>
+      <select1 ref="/data/hardcoded_intro/member_type">
+        <label ref="jr:itext('/data/hardcoded_intro/member_type:label')"/>
+        <hint ref="jr:itext('/data/hardcoded_intro/member_type:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_intro/member_type:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_intro/member_type:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_intro/member_type:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_intro/member_type:option3')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_intro/member_type:option4')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_intro/member_type:option5')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_intro/member_type:option6')"/>
+          <value>6</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/hardcoded_commute_work">
+      <label ref="jr:itext('/data/hardcoded_commute_work:label')"/>
+      <input ref="/data/hardcoded_commute_work/location_work" appearance="maps">
+        <label ref="jr:itext('/data/hardcoded_commute_work/location_work:label')"/>
+        <hint ref="jr:itext('/data/hardcoded_commute_work/location_work:hint')"/>
+      </input>
+      <select1 ref="/data/hardcoded_commute_work/travel_mode_work">
+        <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_work:label')"/>
+        <hint ref="jr:itext('/data/hardcoded_commute_work/travel_mode_work:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_work:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_work:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_work:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_work:option3')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_work:option4')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_work:option5')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_work:option6')"/>
+          <value>6</value>
+        </item>
+      </select1>
+      <select1 ref="/data/hardcoded_commute_work/travel_mode_alt_work">
+        <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_alt_work:label')"/>
+        <hint ref="jr:itext('/data/hardcoded_commute_work/travel_mode_alt_work:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_alt_work:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_alt_work:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_alt_work:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_alt_work:option3')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_alt_work:option4')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_alt_work:option5')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_alt_work:option6')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_work/travel_mode_alt_work:option7')"/>
+          <value>7</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/hardcoded_commute_study">
+      <label ref="jr:itext('/data/hardcoded_commute_study:label')"/>
+      <input ref="/data/hardcoded_commute_study/location_school" appearance="maps">
+        <label ref="jr:itext('/data/hardcoded_commute_study/location_school:label')"/>
+        <hint ref="jr:itext('/data/hardcoded_commute_study/location_school:hint')"/>
+      </input>
+      <select1 ref="/data/hardcoded_commute_study/travel_mode_study">
+        <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_study:label')"/>
+        <hint ref="jr:itext('/data/hardcoded_commute_study/travel_mode_study:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_study:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_study:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_study:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_study:option3')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_study:option4')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_study:option5')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_study:option6')"/>
+          <value>6</value>
+        </item>
+      </select1>
+      <select1 ref="/data/hardcoded_commute_study/travel_mode_alt_study">
+        <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_alt_study:label')"/>
+        <hint ref="jr:itext('/data/hardcoded_commute_study/travel_mode_alt_study:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_alt_study:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_alt_study:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_alt_study:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_alt_study:option3')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_alt_study:option4')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_alt_study:option5')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_alt_study:option6')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_commute_study/travel_mode_alt_study:option7')"/>
+          <value>7</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/data/hardcoded_demographics">
+      <label ref="jr:itext('/data/hardcoded_demographics:label')"/>
+      <select1 ref="/data/hardcoded_demographics/gender">
+        <label ref="jr:itext('/data/hardcoded_demographics/gender:label')"/>
+        <hint ref="jr:itext('/data/hardcoded_demographics/gender:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_demographics/gender:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_demographics/gender:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_demographics/gender:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_demographics/gender:option3')"/>
+          <value>3</value>
+        </item>
+      </select1>
+      <select1 ref="/data/hardcoded_demographics/age">
+        <label ref="jr:itext('/data/hardcoded_demographics/age:label')"/>
+        <hint ref="jr:itext('/data/hardcoded_demographics/age:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_demographics/age:option0')"/>
+          <value>0</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_demographics/age:option1')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_demographics/age:option2')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_demographics/age:option3')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_demographics/age:option4')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_demographics/age:option5')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_demographics/age:option6')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/hardcoded_demographics/age:option7')"/>
+          <value>7</value>
+        </item>
+      </select1>
+      <input ref="/data/hardcoded_demographics/email">
+        <label ref="jr:itext('/data/hardcoded_demographics/email:label')"/>
+        <hint ref="jr:itext('/data/hardcoded_demographics/email:hint')"/>
+      </input>
+    </group>
+    <group ref="/data/dynamic">
+      <label ref="jr:itext('/data/dynamic:label')"/>
+      <select1 ref="/data/dynamic/name">
+        <label ref="jr:itext('/data/dynamic/name:label')"/>
+        <item>
+          <label ref="jr:itext('/data/dynamic/name:option0')"/>
+          <value>Ali</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/dynamic/name:option1')"/>
+          <value>Kyle</value>
+        </item>
+      </select1>
+    </group>
+  </h:body>
+</h:html>
