@@ -38,7 +38,7 @@ def create_root():
     ET.SubElement(root, 'h:body', attrib={'class': 'pages'})
     return root
 
-def add_xforms_head(root):
+def add_xforms_head(root, survey_id):
     model = root.find('.//model')
     instance = model.find('instance')
     data = ET.SubElement(instance, 'data', attrib={'id': f'Itinerum survey {survey_id}',
@@ -123,7 +123,7 @@ def _add_question_data(root, group_label, question_label, odk_type, question_cho
         raise Exception(f'No case for: {group_label}, {question_label}, {odk_type}')
 
 
-def add_questions(survey_id, questions, root):
+def add_questions(root, survey_id, survey_language, questions):
     model = root.find('.//model')
     data = model.find('./instance/data')
     itext = model.find('./itext')
@@ -192,10 +192,10 @@ def add_questions(survey_id, questions, root):
         _add_question_data(root, group_label, question_label, odk_type, question_choices)
 
 
-def serialize(survey_id, questions):
+def serialize(survey_id, survey_language, questions):
     root = create_root()
-    add_xforms_head(root)
-    add_questions(survey_id, questions, root)
+    add_xforms_head(root, survey_id)
+    add_questions(root, survey_id, survey_language, questions)
 
     tree = ET.ElementTree(root)
     tree.write('test-form.xml', encoding='utf-8')
